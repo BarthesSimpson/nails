@@ -1,0 +1,11 @@
+{
+  "name": "nails_sample_project",
+  "version": "1.0.0",
+  "description": "Sample project demonstrating Node on Nails",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "BarthesSimpson",
+  "license": "MIT"
+}

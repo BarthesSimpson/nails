@@ -1,0 +1,28 @@
+{
+  "name": "nails",
+  "version": "1.0.0",
+  "description": "Node on Nails",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BarthesSimpson/nails.git"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "reactjs",
+    "next.js"
+  ],
+  "author": "BarthesSimpson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BarthesSimpson/nails/issues"
+  },
+  "homepage": "https://github.com/BarthesSimpson/nails#readme"
+}
