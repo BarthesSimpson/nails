@@ -7,6 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
+    "start": "parcel sample_project_2/index.ts --target node",
+    "watch": "nodemon dist/index.js",
     "test": "npm run test"
   },
   "repository": {
@@ -24,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/BarthesSimpson/nails/issues"
   },
-  "homepage": "https://github.com/BarthesSimpson/nails#readme"
+  "homepage": "https://github.com/BarthesSimpson/nails#readme",
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "nodemon": "^2.0.4",
+    "parcel": "^1.12.4",
+    "typescript": "^4.0.2"
+  }
 }

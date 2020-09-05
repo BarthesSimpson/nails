@@ -13,8 +13,7 @@
     "lib": ["es2018"],
     "experimentalDecorators": true,
     "paths": {
-      // makes for easier imports in unit tests.
-      "src/*": ["src/*"]
+      "nails/*": ["../src/*"]
     }
   },
   "exclude": ["./node_modules"]
