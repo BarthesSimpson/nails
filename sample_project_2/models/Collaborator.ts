@@ -1,10 +1,9 @@
 import Project from "./Project";
-import { primary, searchable, unique } from "../../src/nails";
+import { primary, unique } from "../../src/nails";
 
 export default class Collaborator {
-  firstName: string;
-  lastName: string;
-  fullName: string;
+  name: string;
+  preferredName: string;
   @primary()
   email: string;
   @unique()
